@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui concurrent
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -24,8 +24,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        dialog.cpp
+        dialog.cpp \
+    myjob.cpp
 
-HEADERS  += dialog.h
+HEADERS  += dialog.h \
+    myjob.h
 
 FORMS    += dialog.ui
