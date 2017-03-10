@@ -13,3 +13,13 @@ Dialog::~Dialog()
     delete ui;
 }
 
+
+void Dialog::on_startButton_clicked()
+{
+
+}
+
+void Dialog::on_stopButton_clicked()
+{
+
+}
